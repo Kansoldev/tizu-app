@@ -47,7 +47,9 @@ function App() {
 
                   <div className="col-lg-5 d-none d-md-block">
                     <div className="hero__img">
-                      <img src="/assets/img/hero-img.png" />
+                      <img
+                        src={`${process.env.PUBLIC_URL}/assets/img/hero-img.png`}
+                      />
                     </div>
                   </div>
                 </div>
@@ -61,7 +63,7 @@ function App() {
             <div className="col-md-6">
               <div className="img-container mb-5 mb-md-0">
                 <img
-                  src="/assets/img/Group8.png"
+                  src={`${process.env.PUBLIC_URL}/assets/img/Group8.png`}
                   className="img-fluid d-block m-auto"
                 />
               </div>
@@ -98,7 +100,9 @@ function App() {
               <div className="row justify-content-between align-items-center">
                 <div className="col-md-4 mb-4 mb-md-0">
                   <div>
-                    <img src="/assets/img/available.png" />
+                    <img
+                      src={`${process.env.PUBLIC_URL}/assets/img/available.png`}
+                    />
                   </div>
                 </div>
 
@@ -118,7 +122,10 @@ function App() {
               <div className="row mt-5 justify-content-between align-items-center">
                 <div className="col-md-4 mb-4 mb-md-0 order-md-2">
                   <div>
-                    <img src="/assets/img/tech.png" className="w-100" />
+                    <img
+                      src={`${process.env.PUBLIC_URL}/assets/img/tech.png`}
+                      className="w-100"
+                    />
                   </div>
                 </div>
 
@@ -137,7 +144,9 @@ function App() {
               <div className="row mt-5 justify-content-between align-items-center">
                 <div className="col-md-4 mb-4 mb-md-0">
                   <div>
-                    <img src="/assets/img/transactions.png" />
+                    <img
+                      src={`${process.env.PUBLIC_URL}/assets/img/transactions.png`}
+                    />
                   </div>
                 </div>
 
@@ -156,7 +165,10 @@ function App() {
               <div className="row mt-5 justify-content-between align-items-center">
                 <div className="col-md-4 mb-4 mb-md-0 order-md-2">
                   <div>
-                    <img src="/assets/img/Grou 7.png" className="w-100" />
+                    <img
+                      src={`${process.env.PUBLIC_URL}/assets/img/Group7.png`}
+                      className="w-100"
+                    />
                   </div>
                 </div>
 
@@ -175,7 +187,9 @@ function App() {
               <div className="row mt-5 justify-content-between align-items-center">
                 <div className="col-md-4 mb-4 mb-md-0">
                   <div>
-                    <img src="/assets/img/mobile encryption.png" />
+                    <img
+                      src={`${process.env.PUBLIC_URL}/assets/img/mobile encryption.png`}
+                    />
                   </div>
                 </div>
 
@@ -204,8 +218,7 @@ function App() {
             <div className="col-md-6 order-md-2">
               <div className="img-container">
                 <img
-                  src="/assets/img/image.png"
-                  alt=""
+                  src={`${process.env.PUBLIC_URL}/assets/img/image.png`}
                   className="img-fluid d-block ml-md-auto"
                 />
               </div>
