@@ -1,8 +1,6 @@
 :root {
-  --primary-color: #4c2e5c;
-  --secondary-color: #df6589;
-  /* --primary-color: #511f52;
-  --secondary-color: #707b8e; */
+  --primary-color: #372a28;
+  --secondary-color: #fec327;
 }
 
 html {
@@ -31,6 +29,7 @@ textarea {
 .btn-primary {
   background-color: var(--primary-color);
   border-color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .btn-outline-primary {
@@ -38,11 +37,29 @@ textarea {
   background-color: transparent;
   background-image: none;
   border-color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .btn-outline-primary:hover,
 .btn-primary:hover {
   background-color: var(--primary-color);
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.btn-outline-secondary {
+  color: var(--secondary-color);
+  background-color: transparent;
+  background-image: none;
+  border-color: var(--secondary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color) !important;
 }
 
 /* Header */
@@ -191,6 +208,7 @@ textarea {
 }
 
 .section-title {
+  color: var(--primary-color);
   position: relative;
   padding-bottom: 13px;
 }
@@ -205,7 +223,7 @@ textarea {
   width: 70px;
   height: 2px;
   margin: auto;
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
 }
 
 .content p {
