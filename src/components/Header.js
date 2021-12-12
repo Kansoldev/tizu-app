@@ -1,4 +1,5 @@
 import React from "react";
+import { Switch, Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -20,7 +21,7 @@ function Header() {
                     id="SvgjsG1108"
                     featurekey="symbolFeature-0"
                     transform="matrix(1.6129032258064515,0,0,1.6129032258064515,-30.64516129032258,-30.64516129032258)"
-                    fill="#511F52"
+                    fill="#372a28"
                   >
                     <path
                       xmlns="http://www.w3.org/2000/svg"
@@ -32,7 +33,7 @@ function Header() {
                     id="SvgjsG1109"
                     featurekey="nameFeature-0"
                     transform="matrix(2.4838548110758487,0,0,2.4838548110758487,118.41033680572465,-13.819175779080336)"
-                    fill="#511F52"
+                    fill="#372a28"
                   >
                     <path d="M0.64 13.52 l0 -2.32 l20.96 0 l0 2.32 l-9.12 0 l0 26.48 l-2.72 0 l0 -26.48 l-9.12 0 z M27.880000000000003 40 l-2.4 0 l0 -20.72 l2.4 0 l0 20.72 z M28 14.760000000000002 l-2.64 0 l0 -3.56 l2.64 0 l0 3.56 z M54.28 40 l-21.92 0 l0 -2.28 l18.44 -24.2 l-16.88 0 l0 -2.32 l20.24 0 l0 2.28 l-18.44 24.2 l18.56 0 l0 2.32 z M58.84 29.16 l0 -17.96 l2.72 0 l0 17.16 c0 7.12 2.56 10.08 8.44 10.08 c6.2 0 8.44 -3.28 8.44 -10.08 l0 -17.16 l2.72 0 l0 17.96 c0 7.48 -3.72 11.6 -11.16 11.6 c-7.52 0 -11.16 -4.24 -11.16 -11.6 z"></path>
                   </g>
@@ -41,19 +42,23 @@ function Header() {
 
               <div className="col-md-10">
                 <div className="main-menu float-right d-none d-lg-block">
-                  <nav>
-                    <ul className="m-0 p-0" id="navigation">
-                      <li>
-                        <a href="#">Home</a>
-                      </li>
-                      <li>
-                        <a href="#">Solutions</a>
-                      </li>
-                      <li>
-                        <a href="#">About us</a>
-                      </li>
-                    </ul>
-                  </nav>
+                  <Switch>
+                    <nav>
+                      <ul className="m-0 p-0" id="navigation">
+                        <li>
+                          <Link to="">Home</Link>
+                        </li>
+
+                        <li>
+                          <Link to="/share">Share</Link>
+                        </li>
+
+                        <li>
+                          <Link to="/about">About us</Link>
+                        </li>
+                      </ul>
+                    </nav>
+                  </Switch>
                 </div>
               </div>
             </div>
