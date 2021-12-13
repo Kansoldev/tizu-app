@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tizu-app/static/css/main.20c22ff7.chunk.css",
-    "main.js": "/tizu-app/static/js/main.d841a6a1.chunk.js",
-    "main.js.map": "/tizu-app/static/js/main.d841a6a1.chunk.js.map",
+    "main.js": "/tizu-app/static/js/main.59209a56.chunk.js",
+    "main.js.map": "/tizu-app/static/js/main.59209a56.chunk.js.map",
     "runtime-main.js": "/tizu-app/static/js/runtime-main.03b00f81.js",
     "runtime-main.js.map": "/tizu-app/static/js/runtime-main.03b00f81.js.map",
     "static/css/2.4f202aae.chunk.css": "/tizu-app/static/css/2.4f202aae.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.4f202aae.chunk.css",
     "static/js/2.4ecd375e.chunk.js",
     "static/css/main.20c22ff7.chunk.css",
-    "static/js/main.d841a6a1.chunk.js"
+    "static/js/main.59209a56.chunk.js"
   ]
 }
