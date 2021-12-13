@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/tizu-app/static/css/main.051aa38f.chunk.css",
-    "main.js": "/tizu-app/static/js/main.4ac9d87c.chunk.js",
-    "main.js.map": "/tizu-app/static/js/main.4ac9d87c.chunk.js.map",
+    "main.css": "/tizu-app/static/css/main.20c22ff7.chunk.css",
+    "main.js": "/tizu-app/static/js/main.d841a6a1.chunk.js",
+    "main.js.map": "/tizu-app/static/js/main.d841a6a1.chunk.js.map",
     "runtime-main.js": "/tizu-app/static/js/runtime-main.03b00f81.js",
     "runtime-main.js.map": "/tizu-app/static/js/runtime-main.03b00f81.js.map",
     "static/css/2.4f202aae.chunk.css": "/tizu-app/static/css/2.4f202aae.chunk.css",
-    "static/js/2.a8e04087.chunk.js": "/tizu-app/static/js/2.a8e04087.chunk.js",
-    "static/js/2.a8e04087.chunk.js.map": "/tizu-app/static/js/2.a8e04087.chunk.js.map",
+    "static/js/2.4ecd375e.chunk.js": "/tizu-app/static/js/2.4ecd375e.chunk.js",
+    "static/js/2.4ecd375e.chunk.js.map": "/tizu-app/static/js/2.4ecd375e.chunk.js.map",
     "index.html": "/tizu-app/index.html",
     "static/css/2.4f202aae.chunk.css.map": "/tizu-app/static/css/2.4f202aae.chunk.css.map",
-    "static/css/main.051aa38f.chunk.css.map": "/tizu-app/static/css/main.051aa38f.chunk.css.map",
-    "static/js/2.a8e04087.chunk.js.LICENSE.txt": "/tizu-app/static/js/2.a8e04087.chunk.js.LICENSE.txt"
+    "static/css/main.20c22ff7.chunk.css.map": "/tizu-app/static/css/main.20c22ff7.chunk.css.map",
+    "static/js/2.4ecd375e.chunk.js.LICENSE.txt": "/tizu-app/static/js/2.4ecd375e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.03b00f81.js",
     "static/css/2.4f202aae.chunk.css",
-    "static/js/2.a8e04087.chunk.js",
-    "static/css/main.051aa38f.chunk.css",
-    "static/js/main.4ac9d87c.chunk.js"
+    "static/js/2.4ecd375e.chunk.js",
+    "static/css/main.20c22ff7.chunk.css",
+    "static/js/main.d841a6a1.chunk.js"
   ]
 }
