@@ -72,7 +72,7 @@ function Header() {
                     </Link>
                   </li>
 
-                  <li className="nav-item mx-4">
+                  <li className="nav-item mx-lg-4">
                     <Link className="nav-link" to="/share">
                       Share
                     </Link>
