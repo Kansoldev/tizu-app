@@ -5,6 +5,8 @@
 /.pnp
 .pnp.js
 /src/App(backup).css
+/src/About.js
+/src/extra.css
 
 # testing
 /coverage
