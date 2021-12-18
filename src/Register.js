@@ -2,7 +2,7 @@ import React from "react";
 
 function register() {
   return (
-    <div className="container" style={{ marginTop: "30px" }}>
+    <div className="container mt-3">
       <div className="row">
         <div className="col-md-4 d-none align-self-center pl-0">
           <img
@@ -12,7 +12,7 @@ function register() {
         </div>
 
         <div
-          className="col-md-12 py-5 pl-4"
+          className="col-md-12 py-5 pl-md-4"
           style={{
             backgroundImage: `url('${process.env.PUBLIC_URL}/assets/img/signupbg.png')`,
             backgroundSize: "cover",
@@ -28,7 +28,7 @@ function register() {
 
           <div className="button-group">
             <button
-              className="btn btn-primary bg-white border-0 text-dark"
+              className="btn btn-primary bg-white border-0 text-dark mb-4"
               style={{
                 borderRadius: "24px",
                 fontSize: "0.9rem",
@@ -45,7 +45,7 @@ function register() {
             </button>
 
             <button
-              className="btn btn-primary ml-4 bg-white border-0 text-dark"
+              className="btn btn-primary ml-md-4 bg-white border-0 text-dark"
               style={{
                 borderRadius: "24px",
                 fontSize: "0.9rem",
@@ -62,35 +62,30 @@ function register() {
             </button>
           </div>
 
-          <form>
+          <form className="register">
             <div className="container mt-4">
               <div className="row">
-                <div className="col-6 p-0">
+                <div className="col-md-6 p-0">
                   <div className="form-group">
                     <label htmlFor="fname">First Name</label>
 
                     <input
                       type="text"
                       id="fname"
-                      className="form-control w-75 border-0 p-3"
-                      style={{
-                        height: "35px",
-                        borderRadius: "5px",
-                        fontSize: 14,
-                      }}
+                      className="form-control border-0 p-3"
                       placeholder="First Name"
                     />
                   </div>
                 </div>
 
-                <div className="col-6 p-0">
+                <div className="col-md-6 p-0">
                   <div className="form-group">
                     <label htmlFor="lname">Last Name</label>
 
                     <input
                       type="text"
                       id="lname"
-                      className="form-control w-75 border-0 p-3"
+                      className="form-control border-0 p-3"
                       style={{
                         height: "35px",
                         borderRadius: "5px",
@@ -101,14 +96,14 @@ function register() {
                   </div>
                 </div>
 
-                <div className="col-6 p-0 my-3">
+                <div className="col-md-6 p-0">
                   <div className="form-group">
                     <label htmlFor="phone">Phone number</label>
 
                     <input
                       type="text"
                       id="phone"
-                      className="form-control w-75 border-0 p-3"
+                      className="form-control border-0 p-3"
                       style={{
                         height: "35px",
                         borderRadius: "5px",
@@ -119,14 +114,14 @@ function register() {
                   </div>
                 </div>
 
-                <div className="col-6 p-0 mt-3">
+                <div className="col-md-6 p-0 mt-md-3">
                   <div className="form-group">
                     <label htmlFor="password">Password</label>
 
                     <input
                       type="password"
                       id="password"
-                      className="form-control w-75 border-0 p-3"
+                      className="form-control border-0 p-3"
                       style={{
                         height: "35px",
                         borderRadius: "5px",
@@ -137,14 +132,14 @@ function register() {
                   </div>
                 </div>
 
-                <div className="col-6 p-0">
-                  <div className="form-group">
+                <div className="col-md-6 p-0">
+                  <div className="form-group mb-0">
                     <label htmlFor="password2">Confirm Password</label>
 
                     <input
                       type="password"
                       id="password2"
-                      className="form-control w-75 border-0 p-3"
+                      className="form-control border-0 p-3"
                       style={{
                         height: "35px",
                         borderRadius: "5px",
