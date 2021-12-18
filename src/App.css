@@ -247,3 +247,19 @@ textarea {
     margin-top: 90px;
   }
 }
+
+/* Register CSS page */
+.register input {
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.register .form-group {
+  margin-bottom: 27px;
+}
+
+@media (min-width: 768px) {
+  .register input {
+    width: 75%;
+  }
+}
