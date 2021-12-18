@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/tizu-app/static/css/main.a144510b.chunk.css",
-    "main.js": "/tizu-app/static/js/main.c430d483.chunk.js",
-    "main.js.map": "/tizu-app/static/js/main.c430d483.chunk.js.map",
+    "main.css": "/tizu-app/static/css/main.bc355626.chunk.css",
+    "main.js": "/tizu-app/static/js/main.620ffa83.chunk.js",
+    "main.js.map": "/tizu-app/static/js/main.620ffa83.chunk.js.map",
     "runtime-main.js": "/tizu-app/static/js/runtime-main.03b00f81.js",
     "runtime-main.js.map": "/tizu-app/static/js/runtime-main.03b00f81.js.map",
     "static/css/2.4f202aae.chunk.css": "/tizu-app/static/css/2.4f202aae.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.4ecd375e.chunk.js.map": "/tizu-app/static/js/2.4ecd375e.chunk.js.map",
     "index.html": "/tizu-app/index.html",
     "static/css/2.4f202aae.chunk.css.map": "/tizu-app/static/css/2.4f202aae.chunk.css.map",
-    "static/css/main.a144510b.chunk.css.map": "/tizu-app/static/css/main.a144510b.chunk.css.map",
+    "static/css/main.bc355626.chunk.css.map": "/tizu-app/static/css/main.bc355626.chunk.css.map",
     "static/js/2.4ecd375e.chunk.js.LICENSE.txt": "/tizu-app/static/js/2.4ecd375e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.03b00f81.js",
     "static/css/2.4f202aae.chunk.css",
     "static/js/2.4ecd375e.chunk.js",
-    "static/css/main.a144510b.chunk.css",
-    "static/js/main.c430d483.chunk.js"
+    "static/css/main.bc355626.chunk.css",
+    "static/js/main.620ffa83.chunk.js"
   ]
 }
