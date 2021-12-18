@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 /src/App(backup).css
+/src/About.js
+/src/extra.css
+/assets/img/available.png
 
 # testing
 /coverage
@@ -22,3 +25,4 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+public/assets/img/available.png
